@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+
+.landingpage {
+  position: absolute;
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  top: 0;
+  position: relative;
+  width: 100%;
+  height: 10%;
+  margin-bottom: 10px;
+  background-color: black;
+}
+.header img {
+  padding: 10px;
+  height: 50px;
+  width: 200px;
+}
+
+.header h4 {
+  color: white;
+  float: right;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+.header button {
+  margin-right: 2px;
+
+  padding: 5px;
+
+  border-radius: 10px;
+}
+.buttons {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+.user {
+  position: relative;
+}
+
+.dashboard {
+  height: 100%;
+  width: 100%;
+}
+.middle {
+}
+.registeredUsers {
+  float: left;
+  display: inline;
+  border-right: 6px solid green;
+}
+.registeredUsers button {
+  display: block;
+  border-width: 0;
+  margin: 10px;
+  background-color: white;
+}
+.messages {
+  display: inline;
+}
+.fetchedMessages {
+  text-align: center;
+}
+.fetchedMessages h3 {
+  color: green;
+  display: inline;
+}
+.fetchedMessages h4 {
+  color: green;
+  display: inline-flex;
+}
+.createMessage {
+  position: fixed;
+  bottom: 1em;
+  right: 8em;
+}
+.createMessage form {
+  display: inline-flex;
+}
+.createMessage textarea {
+  width: 500px;
+}
+.group {
+  background-color: whitesmoke;
+}
+.groupchat {
+  position: relative;
+  background-color: blue;
+  padding-left: 10px;
+  padding-top: 1px;
+  margin: 10px;
+  width: fit-content;
+  border-radius: 10px;
+}
+.groupchat h6 {
+  margin-block-start: 0;
+  padding-left: 100%;
+  color: green;
+}
+.groupchat h5 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: purple;
+}
+.groupchat h4 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-right: 10px;
+}
+.priv {
+  position: relative;
+}
+.sender{
+  width: max-content;
+background-color: blue;
+}
+.receiver{
+  width: max-content;
+  background-color: purple;
+  }
